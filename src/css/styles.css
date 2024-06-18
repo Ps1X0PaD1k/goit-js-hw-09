@@ -58,12 +58,13 @@ body {
 
 .feedback-form {
   display: flex;
-  flex-direction: column;
   gap: 10px;
   background: #fff;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px #0000001a;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .feedback-form label {
